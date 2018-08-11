@@ -1,0 +1,380 @@
+/*
+main.css
+*/
+
+/* --------------------------------------------- */
+
+.index-pg-bg {
+    background: url("../Img/trophy-2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact-pg-bg {
+    background-color: dimgray;
+}
+
+/*--------------------------------------------
+      container-header
+  --------------------------------------------
+
+
+      container-body
+
+
+  --------------------------------------------
+*/
+
+.header-bar-flex {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    flex: 1 100%;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 236px;
+    right: 0px;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+}
+
+.header-bar-name {
+    /* margin: 0 -9999px; */
+    /* add back negative margin value */
+    /* padding: 0.25rem 9999px; */
+    text-align: center;
+    font-size: 30px;
+    background-color: #151719;
+    color: white;
+    display: block;
+    justify-content: right;
+    width: 100vw;
+    right: 0px;
+}
+
+/* Will hold the header */
+
+.container-header {
+    /* display: flex; */
+    display: inline-flex;
+    flex: 1 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-content: flex-start;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+/* Will hold the header */
+
+.container-header-item {
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    padding-right: 0px;
+    padding-left: 250px;
+    border: none;
+    color: white;
+    background-color: #151719;
+    max-height: 96px;
+    max-width: 100%;
+    /* width: 100%; */
+}
+
+.text-justify {
+    font-family: "Times New Roman", Times, serif;
+    /* font-family:    Arial, Helvetica, sans-serif; */
+    text-align: center;
+    /* font-size: 150%; */
+}
+
+.container-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    left: 300px;
+    bottom: 100;
+    padding-right: 100px;
+    padding-left: 0px;
+    border: none;
+    text-align: justify center;
+}
+
+.container-body-item {
+    align-content: left;
+}
+
+.container-body-item-center a i {
+    display: inline;
+}
+
+.box-right {
+    position: right;
+    padding-right: 10px;
+    padding-left: 300px;
+    border: none;
+    width: 30px;
+    background: transparent;
+}
+
+#sidebar {
+    position: fixed;
+    width: 230px;
+    height: 100%;
+    background-color: #151719;
+    /* background-color:orange; */
+    color: white;
+    left: -200px;
+    transition: all 500ms linear;
+    top: 0;
+}
+
+#sidebar ul li {
+    color: white;
+    list-style: none;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.3);
+    /* border-bottom:1px solid orangered; */
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 250px;
+    top: 150px;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #20a4c591;
+    margin: 5px 0px;
+    padding-top: 200;
+}
+
+#container-menu {
+    display: flex;
+    width: 100px;
+}
+
+.flex-menu-l {
+    width: 60px;
+    align-content: left;
+}
+
+.flex-menu-r {
+    width: 40px;
+    align-content: right;
+}
+
+#menu {
+    position: absolute;
+    top: 97px;
+    overflow-y: auto;
+    width: 230px;
+    height: 100%;
+}
+
+#menu ul>li.selected {
+    background: red;
+    color: white;
+}
+
+#menu ul {
+    margin: 0;
+    list-style: none;
+    line-height: normal;
+    color: white;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    color: white;
+}
+
+#menu li a {
+    display: block;
+    text-align: left;
+    float: left;
+    margin-right: 5px;
+    padding: 5px 8px;
+    color: white;
+}
+
+#menu a:hover {
+    box-shadow: 8px 8px 20px grey;
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.25);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+    background-color: red;
+    color: white;
+    -o-transform: scale(1.25);
+}
+
+#menu a.selected {
+    background: red;
+}
+
+#nav-hover:hover {
+    box-shadow: 4px 4px 10px grey;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.25);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+    background-color: red;
+    color: white;
+}
+
+/*
+
+*/
+
+#current-page {
+    text-decoration: none;
+    background: red;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a i .dead-icons {
+    float: right;
+    list-style-type: none;
+    text-align: right;
+    border: none;
+    position: absolute;
+    color: white;
+    background-color: sandybrown;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.fa-inline {
+    width: 20px;
+}
+
+.fa-inline .fa {
+    display: inline;
+}
+
+.icons-dark {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 50px;
+    max-height: 50px;
+    color: black;
+    border: gray;
+    border-width: 3px;
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+/* Style page content */
+
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.sm-pic-bot-right {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    max-width: 400px;
+    max-height: 350px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+/* img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+} */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+@media screen and (max-width: 500px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+    #MobileMenuDivWrapper {
+        height: 200px;
+        max-height: 200px;
+        width: 100%;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        /*mobile safari*/
+    }
+}
+
+.icon-lineup-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: left;
+    flex-flow: row;
+    /* flex-wrap:wrap; */
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.icon-lineup-item-l {
+    width: 100%;
+    max-width: 30%;
+    border: 1px solid red;
+    margin: 5px;
+    align-content: left
+}
+
+.icon-lineup-item-r {
+    width: 100%;
+    max-width: 70%;
+    border: 1px solid red;
+    margin: 5px;
+    align-content: right;
+}

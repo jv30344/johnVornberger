@@ -1,0 +1,530 @@
+/*
+main.css
+*/
+
+ /* --------------------------------------------- */
+/* CSS for the background picture for the about page */
+ .index-pg-bg
+    {
+       background: url("../Img/trophy-2.jpg") 
+       no-repeat center center fixed; 
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+    }
+
+/* Background for the contact page...  Not implemented */
+.contact-pg-bg
+    {
+        background-color: dimgray;
+    }    
+
+
+ 
+/*--------------------------------------------
+      container-header
+  --------------------------------------------
+
+
+      container-body
+
+
+  --------------------------------------------
+*/
+/* Header bar flex... It was hard to keep any bar that went all the way across */
+.header-bar-flex
+{
+    display: inline-flex;
+	flex-flow: row nowrap;
+    flex: 1 100%;
+	height: 50px;
+    width: 100%;
+    position:absolute;
+    top: 0px;
+    left:236px;
+    right:0px;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+    width:100%;
+    
+}
+
+.header-bar-name
+{
+    /* margin: 0 -9999px; */
+    /* add back negative margin value */
+    /* padding: 0.25rem 9999px; */
+    text-align: center;
+    font-size: 30px;
+    background-color: #151719;
+    color:white;
+    display: block;
+    justify-content: right;
+    width: 100vw;   /* This is what allows the bar to go all the way across the page */
+    right: 0px;
+
+}
+
+ /* Header flex */
+ .container-header 
+{
+    /* display: flex; */
+    display: inline-flex;
+    flex: 1 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-content: flex-start;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;    
+}    
+
+/* Flex item */
+.container-header-item
+{
+    align-content: center;
+    font-family:    Arial, Helvetica, sans-serif;
+    font-size:      30px;
+    font-weight:    normal;
+    padding-right: 0px;
+    padding-left: 250px; 
+    border: none;
+    color: white;
+    background-color: #151719;
+    max-height: 96px;
+    max-width: 100%;
+    /* width: 100%; */
+}
+
+table#skill-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+table#skill-table td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0px auto;    
+    text-align: left;
+    padding: 8px;
+    width: 25%;
+
+}
+
+table#skill-table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table#skill-table th {
+    text-align: center;
+}
+
+.text-justify
+{
+    font-family: "Times New Roman", Times, serif;
+    /* font-family:    Arial, Helvetica, sans-serif; */
+    text-align: center;
+    /* font-size: 150%; */
+}
+
+ /* Flex container for the body piece of screen */
+ .container-body 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    left: 300px;
+    bottom:100;
+    padding-right: 100px;
+    padding-left: 0px;
+    border: none;
+    text-align: justify center;
+}
+
+.container-body-item
+{
+    align-content: left;
+}
+
+.container-body-item-center a i
+{
+    display: inline;
+}
+
+ .box-right {
+    position: right;
+    padding-right: 10px; 
+    padding-left: 300px;
+    border: none;
+    width:  30px;
+    background: transparent;
+}
+
+/* The sidebar is used for the hamburger button settins */
+#sidebar {
+    position:fixed;
+    width:230px;
+    height:100%;
+    background-color:#151719;
+    /* background-color:orange; */
+    color: white;
+    left:-200px;
+    transition:all 500ms linear;
+    top: 0;
+}
+
+#sidebar ul li { 
+    color: white;
+    list-style:none;
+    padding:15px 10px;
+    border-bottom:1px solid rgba(100,100,100,0.3);
+    /* border-bottom:1px solid orangered; */
+}
+#sidebar .toggle-btn {
+    position:absolute;
+    left:250px;
+    top:150px;
+}
+#sidebar .toggle-btn span {
+    display:block;
+    width:30px;
+    height:5px;
+    background: #0e109691;
+    margin:5px 0px;
+    padding-top: 200;
+}
+
+#container-menu
+{
+    display:flex;
+    width: 100px;
+}
+
+.flex-menu-l {
+    width: 60px;
+    align-content: left;
+}
+
+.flex-menu-r {
+    width: 40px;
+    align-content: right;
+}
+/* The menu CSS is used for the vertical menu */
+  #menu {
+    position: absolute;
+    top: 97px;
+    overflow-y: auto;
+    width: 230px;
+    height:100%;
+}
+
+.edu-container
+{
+    display: flex;
+    width: 400;
+}
+
+
+.edu-pic-size 
+{
+    height: 192px;
+    width: 192px;
+}
+
+.edu-picture-l {
+    width: 192px;
+    height: 192px;
+    align-content: center;
+}
+.edu-top-r {
+    width: 384px;
+    align-self: center;
+
+}
+.edu-bot-r {
+    width: 384px;
+    align-content: center;
+}
+
+#menu ul > li.selected {
+    background: red;
+    color:white;
+
+}
+
+#menu ul {
+    margin: 0;
+    list-style: none;
+    line-height: normal;
+    color: white;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    color: white;
+}
+
+#menu li a {
+    display: block;
+    text-align: left;
+    float: left;
+    margin-right: 5px;
+    padding: 5px 8px;
+    color: white;
+}
+
+#menu a:hover {
+    box-shadow: 8px 8px 20px grey;
+    z-index: 1;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.25);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+    background-color: red;
+    color:white;
+    -o-transform: scale(1.25);
+}
+
+#menu a.selected {
+    background: red;
+}
+
+/* 
+nav-hover is for the hamburger button and for controlling the menu
+*/
+#nav-hover:hover
+{
+    box-shadow: 4px 4px 10px grey;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.25);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.25);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.25);
+    transition: all 200ms ease-in;
+    transform: scale(1.25);
+    background-color: red;
+    color: white;
+} 
+/*
+
+*/
+#current-page {
+    text-decoration: none;
+    background: red;
+    color:white;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Dead icons are used for the icons on the vertical menu.  They aren't links, thus the name  */
+li a i .dead-icons {
+    float: right;
+    list-style-type: none;
+    text-align: right;
+    border: none;
+    position: absolute;
+    color: white;
+    background-color: sandybrown;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.fa-inline 
+{
+    width: 20px;
+}
+
+.fa-inline .fa 
+{
+    display: inline;
+}
+
+.icons-dark {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 50px;
+    max-height: 50px;
+    color: black;
+    border: gray;
+    border-width: 3px;
+}
+
+  #sidebar.active {
+    left:0px;
+  }
+
+ /* Style page content */
+.main {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+.sm-pic-bot-right {
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px;
+    max-width: 400px;
+    max-height: 350px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+ }
+
+/* img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+} */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 500px ) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #MobileMenuDivWrapper { 
+        height: 200px;
+        max-height: 200px;
+        width: 100%;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling:touch; /*mobile safari*/
+      }    
+}
+
+/* The icon lineup container and items are used to line up the text and the icons on the vertical nav bar */
+.icon-lineup-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-flow: row;
+    /* flex-wrap:wrap; */
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+
+.icon-lineup-item-l
+{
+    width: 1em;
+    /* max-width: 30%; */
+    /* border: 1px solid red; */
+    margin: 5px;
+    max-width: 1em;
+    min-width: 1em;
+    float:right;
+    align-content: right;
+ }
+.icon-lineup-item-r
+{
+    width: 8em;
+    /* border: 1px solid red; */
+    margin-top: 8px;
+    margin: 5px;
+    max-width: 4em;
+    min-width: 4em;
+    float: left;
+    align-content: left;
+}
+/* color for the icons */
+
+
+/* CSS for the skills page.  Not yet implemented */
+.skill-flex-container
+{
+    display: flex;
+    align-items: left;
+    flex-flow: row;
+    border: 1px solid red;
+    margin: 5px;
+}
+
+.single-space
+{
+    line-height: 10px;
+}
+
+/*
+This is for the bits & bytes page to handle different screen sizes...
+    0px - 500px - One picture per line
+    501px - 700px - Two pictures each line
+    >= 701px - four pictures per line
+*/
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+section { 
+    display: block;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

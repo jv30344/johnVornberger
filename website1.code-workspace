@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.shell.windows": "D:\\Program Files\\Git\\bin\\bash.exe"
+	}
+}
