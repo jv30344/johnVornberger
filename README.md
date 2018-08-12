@@ -1,3 +1,3 @@
-# FSJS-Project
-Full Stack Javascript Code Louisville project
+# johnVornberger
+Code for john-vornberger.com
 # Personal-Website
