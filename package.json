@@ -1,0 +1,14 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express-validator": "^5.2.0",
+    "pug": "^2.0.3",
+    "undefined": {
+      "integrity": "sha1-m3BqSzKtMMIMpP5l3cu72sMr3tA=",
+      "resolved": "https://registry.npmjs.org/undefined/-/undefined-0.1.0.tgz",
+      "version": "0.1.0"
+    }
+  }
+}

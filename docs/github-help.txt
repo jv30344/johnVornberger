@@ -1,0 +1,132 @@
+[11:51 PM] [/d/johnVornberger] $ git help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+
+The common Git guides are:
+
+   attributes   Defining attributes per path
+   everyday     Everyday Git With 20 Commands Or So
+   glossary     A Git glossary
+   ignore       Specifies intentionally untracked files to ignore
+   modules      Defining submodule properties
+   revisions    Specifying revisions and ranges for Git
+   tutorial     A tutorial introduction to Git (for version 1.5.1 or newer)
+   workflows    An overview of recommended workflows with Git
+
+[04:50 PM] [/d] $ git help -a
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+available git commands in 'D:/Program Files/Git/mingw64/libexec/git-core'
+
+  add                     gc                      receive-pack
+  add--interactive        get-tar-commit-id       reflog
+  am                      grep                    remote
+  annotate                gui                     remote-ext
+  apply                   gui--askpass            remote-fd
+  archimport              gui--askyesno           remote-ftp
+  archive                 gui.tcl                 remote-ftps
+  askpass                 hash-object             remote-http
+  bisect                  help                    remote-https
+  bisect--helper          http-backend            repack
+  blame                   http-fetch              replace
+  branch                  http-push               request-pull
+  bundle                  imap-send               rerere
+  cat-file                index-pack              reset
+  check-attr              init                    rev-list
+  check-ignore            init-db                 rev-parse
+  check-mailmap           instaweb                revert
+  check-ref-format        interpret-trailers      rm
+  checkout                log                     send-email
+  checkout-index          ls-files                send-pack
+  cherry                  ls-remote               sh-i18n--envsubst
+  cherry-pick             ls-tree                 shortlog
+  citool                  mailinfo                show
+  clean                   mailsplit               show-branch
+  clone                   merge                   show-index
+  column                  merge-base              show-ref
+  commit                  merge-file              stage
+  commit-tree             merge-index             stash
+  config                  merge-octopus           status
+  count-objects           merge-one-file          stripspace
+  credential              merge-ours              submodule
+  credential-manager      merge-recursive         submodule--helper
+  credential-store        merge-resolve           subtree
+  credential-wincred      merge-subtree           svn
+  cvsexportcommit         merge-tree              symbolic-ref
+  cvsimport               mergetool               tag
+  daemon                  mktag                   unpack-file
+  describe                mktree                  unpack-objects
+  diff                    mv                      update
+  diff-files              name-rev                update-git-for-windows
+  diff-index              notes                   update-index
+  diff-tree               p4                      update-ref
+  difftool                pack-objects            update-server-info
+  difftool--helper        pack-redundant          upload-archive
+  fast-export             pack-refs               upload-pack
+  fast-import             patch-id                var
+  fetch                   prune                   verify-commit
+  fetch-pack              prune-packed            verify-pack
+  filter-branch           pull                    verify-tag
+  fmt-merge-msg           push                    web--browse
+  for-each-ref            quiltimport             whatchanged
+  format-patch            read-tree               worktree
+  fsck                    rebase                  write-tree
+  fsck-objects            rebase--helper
+
+git commands available from elsewhere on your $PATH
+
+  flow  lfs
+
+[04:50 PM] [/d] $ git help -g set
+The common Git guides are:
+
+   attributes   Defining attributes per path
+   everyday     Everyday Git With 20 Commands Or So
+   glossary     A Git glossary
+   ignore       Specifies intentionally untracked files to ignore
+   modules      Defining submodule properties
+   revisions    Specifying revisions and ranges for Git
+   tutorial     A tutorial introduction to Git (for version 1.5.1 or newer)
+   workflows    An overview of recommended workflows with Git
+

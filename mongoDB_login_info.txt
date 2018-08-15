@@ -1,0 +1,2 @@
+mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
+mongodb+srv://jhv7037:adme#303@johnv-cluster-expsr.gcp.mongodb.net/admin
